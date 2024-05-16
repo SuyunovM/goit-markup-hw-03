@@ -1,0 +1,127 @@
+body{
+    font-family: "roboto",sans-serif ;
+    color: #434455;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+.logo-web{
+    font-family: "raleway",sans-serif;
+    font-size: 18px;
+    color: #4D5AE5;
+    font-weight: 700;
+    line-height: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+}
+.logo-studio{
+    font-family: "raleway" ,sans-serif;
+    text-transform: uppercase;
+    color: #2E2F42;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+}
+.menu{
+    font-size: 16px;
+    color: #2E2F42;
+    font-weight: 500;
+    line-height: 24px;
+}
+.adress{
+    font-style: normal;
+    color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+.order{
+    background: #2E2F42;
+}
+.order-text{
+    font-family: "roboto" ,sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.order-service-text{
+    font-family: "roboto" ,sans-serif;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+button{
+    background: #4D5AE5;
+}
+
+
+.feature-text-link{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #2E2F42;
+}
+.feature-text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #434455;
+}
+
+.section-team{
+    background: #F4F4FD;
+}
+.team{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+}
+.product{
+    background: #FFFFFF;
+    box-shadow: 0px 2px 1px 0px #2E2F4214;
+    box-shadow: 0px 1px 1px 0px #2E2F4229;
+    box-shadow: 0px 1px 6px 0px #2E2F4214;
+}
+.team-name{
+    -size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+}
+.team-name-text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+
+
+footer{
+    background: #2E2F42;
+}
+.footer-studio{
+    color: #F4F4FD;
+    font-family: "Raleway" ,sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    text-transform: uppercase;
+}
+.footer-text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #F4F4FD;
+}
