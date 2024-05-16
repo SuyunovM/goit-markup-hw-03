@@ -1,6 +1,7 @@
 body{
-    font-family: "roboto",sans-serif ;
+    font-family: "Roboto",sans-serif ;
     color: #434455;
+    background-color: #FFFFFF;
 }
 ul{
     list-style-type: none;
@@ -11,34 +12,46 @@ a{
 
 
 .logo-web{
-    font-family: "raleway",sans-serif;
+    font-family: "Raleway",sans-serif;
     font-size: 18px;
     color: #4D5AE5;
     font-weight: 700;
-    line-height: 18px;
-    line-height: 21px;
+    line-height: 1.17;
     text-transform: uppercase;
+    letter-spacing: 0.03em
 }
 .logo-studio{
-    font-family: "raleway" ,sans-serif;
+    font-family: "Raleway" ,sans-serif;
     text-transform: uppercase;
     color: #2E2F42;
     font-weight: 700;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
 }
 .menu{
     font-size: 16px;
     color: #2E2F42;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
+}
+.menu:hover,.menu:focus{
+    color:#404bbf;
+}
+.header-address{
+    font-style: normal;
 }
 .adress{
-    font-style: normal;
     color: #434455;
     font-size: 16px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.5;
+    letter-spacing: 0.02em
+}
+.adress:hover,.adress:focus{
+    color: #404bbf;
 }
 
 
@@ -46,37 +59,43 @@ a{
     background: #2E2F42;
 }
 .order-text{
-    font-family: "roboto" ,sans-serif;
+    font-family: "Roboto" ,sans-serif;
     font-size: 56px;
     font-weight: 700;
-    line-height: 60px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
     text-align: center;
     color: #FFFFFF;
 }
 .order-service-text{
-    font-family: "roboto" ,sans-serif;
+    font-family: "Roboto" ,sans-serif;
     color: #FFFFFF;
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     text-align: center;
 }
-button{
+.button-order{
     background: #4D5AE5;
+    cursor: pointer;
 }
-
+.button-order:hover,.button-order:focus{
+    background-color: #404BBF;
+}
 
 .feature-text-link{
     font-size: 20px;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.2;
     color: #2E2F42;
+    letter-spacing: 0.02em;
 }
 .feature-text{
     font-size: 16px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.5;
     color: #434455;
+    letter-spacing: 0.02em;
 }
 
 .section-team{
@@ -85,28 +104,56 @@ button{
 .team{
     font-size: 36px;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 1.11;
     text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
 }
 .product{
     background: #FFFFFF;
-    box-shadow: 0px 2px 1px 0px #2E2F4214;
-    box-shadow: 0px 1px 1px 0px #2E2F4229;
-    box-shadow: 0px 1px 6px 0px #2E2F4214;
 }
 .team-name{
-    -size: 20px;
+    font-size: 20px;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.2;
     text-align: center;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 .team-name-text{
     font-size: 16px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.2;
     text-align: center;
+    letter-spacing: 0.02em;
 }
 
+.portfolio{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2E2F42;
+}
+.portfolio-name{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2E2F42;
+}
+.portfolio-text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+
+}
 
 footer{
     background: #2E2F42;
@@ -116,12 +163,14 @@ footer{
     font-family: "Raleway" ,sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 21px;
+    line-height: 1.17;
     text-transform: uppercase;
+    letter-spacing: 0.03em
 }
 .footer-text{
     font-size: 16px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.5;
     color: #F4F4FD;
+    letter-spacing: 0.02em
 }
