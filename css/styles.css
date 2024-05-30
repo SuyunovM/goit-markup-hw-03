@@ -58,9 +58,11 @@ img {
     margin: 76px;
 }
 .menu-iteam{
-    margin-right: 40px;
+    margin-right: 40px 0;
 }
 .menu{
+    display: block;
+    padding: 24px 0 24px;
     font-size: 16px;
     color: #2E2F42;
     font-weight: 500;
@@ -103,8 +105,11 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     color: #FFFFFF;
+    max-width: 496px
 }
 .button-order{
+    min-width: 169px;
+    height: 56px;
     padding: 16px 32px;
     border: none;
     border-radius: 4px;
@@ -126,7 +131,7 @@ img {
 }
 .conteiner{
     margin: auto;
-    padding: 0 15px;
+    padding: 0 15px 0 15px;
     width: 1158px;
 }
 .title{
@@ -143,10 +148,11 @@ img {
     display: flex;
 }
 .feature-iteam{
-    width: calc((100% - 3* 24px) / 4);
-    margin-right: 24px;
+    margin-right: 24px 0;
 }
 .feature-text-link{
+    width: calc((100% - 3* 24px) / 4);
+    margin-bottom: 8px;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -183,9 +189,10 @@ img {
     background-color: #ffffff;
 }
 .team-info{
-    padding: 32px;
+    padding: 32px 0 32px;
 }
 .team-name{
+    margin-bottom: 8px;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -202,13 +209,14 @@ img {
     color: #434455;
 }
 .section-portfolio{
-    padding: 120px ;
+    padding: 120px 0 120px 0 ;
 }
 .list-portfolio{
     display: flex;
     flex-wrap: wrap;
     list-style: none;
-    gap: 8px;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 .item-portfolio{
     text-align: center;
@@ -223,9 +231,8 @@ img {
     border: 0px 1px 1px 1px;
     width: 360px;
     height: 120px;
-    border-width: 0px, 1px, 1px, 1px;
-    border-style: solid;
-    border-color: #E7E9FC;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 .portfolio-name{
     margin-bottom: 8px;
@@ -245,7 +252,7 @@ img {
     color: #434455;
 }
 .footer{
-    padding: 100px;
+    padding: 100px 0;
     background: #2E2F42;
 }
 .logo-web-footer{
