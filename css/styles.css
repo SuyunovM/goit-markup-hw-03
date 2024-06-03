@@ -30,6 +30,9 @@ img {
 .header{
     border-bottom: 1px solid #e7e9fc;
 }
+.link{
+    display: flex;
+}
 .nav{
     display: flex;
     align-items: center;
