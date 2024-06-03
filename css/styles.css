@@ -28,8 +28,6 @@ img {
 
 
 .header{
-    display: flex;
-    unicode-bidi: isolate;
     border-bottom: 1px solid #e7e9fc;
 }
 .nav{
@@ -80,14 +78,9 @@ img {
     margin-left:  auto;
     font-style: normal;
 }
-.address-link{
-    display: flex;
-    gap: 40px;
-}
 
 .address{
     margin-left: 40px;
-    display: flex;
     color: #434455;
     font-size: 16px;
     font-weight: 400;
@@ -144,6 +137,16 @@ img {
 }
 
 .visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 .title{
     margin-bottom: 72px;
