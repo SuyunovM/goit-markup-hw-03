@@ -13,6 +13,8 @@ body{
 }
 ul{
     list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 a{
     text-decoration: none;
@@ -32,6 +34,7 @@ img {
 }
 .link{
     display: flex;
+    align-items: center;
 }
 .nav{
     display: flex;
@@ -64,6 +67,7 @@ img {
 }
 .menu-iteam{
     margin-right: 40px 0;
+    display: block;
 }
 .menu-list{
     display: block;
@@ -91,6 +95,10 @@ img {
     letter-spacing: 0.02em;
     list-style: none;
     font-style: normal;
+}
+.address-list{
+    display: flex;
+    gap: 40px;
 }
 .address:hover,.adress:focus{
     color: #404bbf;
