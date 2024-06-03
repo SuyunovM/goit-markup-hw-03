@@ -20,13 +20,18 @@ a{
 img {
     display: block;
 }
+div{
+    margin: auto;
+    padding: 0 15px 0 15px;
+    width: 1158px;
+}
 
 
 .header{
-    margin: auto;
+    margin: 0 auto;
     padding: 0 15px;
     width: 1158px;
-    display: block;
+    display: flex;
     unicode-bidi: isolate;
     border-bottom: 1px solid #e7e9fc;
 }
@@ -35,6 +40,7 @@ img {
     align-items: center;
 }
 .logo-web{
+    margin-right: 76px;
     font-family: "Raleway",sans-serif;
     font-size: 18px;
     color: #4D5AE5;
@@ -44,6 +50,7 @@ img {
     letter-spacing: 0.03em;
 }
 .logo-studio{
+    margin-right: 76px;
     font-family: "Raleway" ,sans-serif;
     text-transform: uppercase;
     color: #2E2F42;
@@ -54,8 +61,8 @@ img {
 }
 .menu-list{
     display: flex;
-    align-items: center;
-    margin: 76px;
+    gap: 40px;
+
 }
 .menu-iteam{
     margin-right: 40px 0;
@@ -72,14 +79,19 @@ img {
 .menu:hover,.menu:focus{
     color:#404bbf;
 }
+.address-list{
+    margin-left:  auto;
+    display:flex;
+    font-style: normal;
+}
 .address{
-    margin-left: auto;
+    margin-left: 40px;
+    display: flex;
     color: #434455;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    display: flex;
     list-style: none;
     font-style: normal;
 }
@@ -87,13 +99,13 @@ img {
     color: #404bbf;
 }
 
-
 .order{
     padding: 188px 0;
     text-align: center;
     background: #2E2F42;
 }
 .order-text{
+    display: block;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 48px;
@@ -129,11 +141,8 @@ img {
 .section{
     padding: 120px 0;
 }
-.conteiner{
-    margin: auto;
-    padding: 0 15px 0 15px;
-    width: 1158px;
-}
+
+.visually-hidden
 .title{
     margin-bottom: 72px;
     font-weight: 700;
@@ -146,9 +155,11 @@ img {
 }
 .feature-list{
     display: flex;
+    gap: 24px;
 }
 .feature-iteam{
     margin-right: 24px 0;
+    width: calc((100% - 72px) / 4);
 }
 .feature-text-link{
     width: calc((100% - 3* 24px) / 4);
@@ -187,6 +198,7 @@ img {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
     background-color: #ffffff;
+    gap: 24px;
 }
 .team-info{
     padding: 32px 0 32px;
