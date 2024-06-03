@@ -25,16 +25,9 @@ img {
     padding: 0 15px 0 15px;
     width: 1158px;
 }
-header{
-    display: block;
-    unicode-bidi: isolate;
-}
 
 
 .header{
-    margin: 0 auto;
-    padding: 0 15px;
-    width: 1158px;
     display: flex;
     unicode-bidi: isolate;
     border-bottom: 1px solid #e7e9fc;
@@ -91,9 +84,7 @@ header{
     display: flex;
     gap: 40px;
 }
-.link{
-    list-style: none;
-}
+
 .address{
     margin-left: 40px;
     display: flex;
@@ -153,7 +144,6 @@ header{
 }
 
 .visually-hidden{
-
 }
 .title{
     margin-bottom: 72px;
