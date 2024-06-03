@@ -20,10 +20,14 @@ a{
 img {
     display: block;
 }
-div{
+.container{
     margin: auto;
     padding: 0 15px 0 15px;
     width: 1158px;
+}
+header{
+    display: block;
+    unicode-bidi: isolate;
 }
 
 
@@ -59,7 +63,7 @@ div{
     line-height: 1.17;
     letter-spacing: 0.03em;
 }
-.menu-list{
+.menu{
     display: flex;
     gap: 40px;
 
@@ -67,7 +71,7 @@ div{
 .menu-iteam{
     margin-right: 40px 0;
 }
-.menu{
+.menu-list{
     display: block;
     padding: 24px 0 24px;
     font-size: 16px;
@@ -81,8 +85,14 @@ div{
 }
 .address-list{
     margin-left:  auto;
-    display:flex;
     font-style: normal;
+}
+.address-link{
+    display: flex;
+    gap: 40px;
+}
+.link{
+    list-style: none;
 }
 .address{
     margin-left: 40px;
@@ -105,7 +115,6 @@ div{
     background: #2E2F42;
 }
 .order-text{
-    display: block;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 48px;
@@ -120,6 +129,7 @@ div{
     max-width: 496px
 }
 .button-order{
+    display: block;
     min-width: 169px;
     height: 56px;
     padding: 16px 32px;
@@ -142,7 +152,9 @@ div{
     padding: 120px 0;
 }
 
-.visually-hidden
+.visually-hidden{
+
+}
 .title{
     margin-bottom: 72px;
     font-weight: 700;
